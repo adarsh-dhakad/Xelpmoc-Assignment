@@ -1,4 +1,4 @@
-package com.xelpmoc.assignment.ui.fragments
+package com.xelpmoc.assignment.view.fragments
 
 import android.os.Bundle
 import android.text.Editable
@@ -17,7 +17,6 @@ import androidx.fragment.app.FragmentManager
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.xelpmoc.assignment.R
-import com.xelpmoc.assignment.data.model.User
 import com.xelpmoc.assignment.databinding.FragmentLoginBinding
 
 class LoginFragment : Fragment() {
@@ -81,6 +80,7 @@ class LoginFragment : Fragment() {
                         val user = auth.currentUser
                         updateUiWithUser(user)
                     } else {
+                        loading.visibility = View.GONE
                         // If sign in fails, display a message to the user.
                         Log.w("login fragment", "signInWithEmail:failure", task.exception)
                         Toast.makeText(

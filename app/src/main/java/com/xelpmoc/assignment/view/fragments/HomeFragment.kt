@@ -1,4 +1,4 @@
-package com.xelpmoc.assignment.ui.fragments
+package com.xelpmoc.assignment.view.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater

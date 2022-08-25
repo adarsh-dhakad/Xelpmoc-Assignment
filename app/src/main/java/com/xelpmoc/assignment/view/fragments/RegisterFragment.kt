@@ -1,4 +1,4 @@
-package com.xelpmoc.assignment.ui.fragments
+package com.xelpmoc.assignment.view.fragments
 
 import android.os.Bundle
 import android.text.Editable
@@ -89,6 +89,7 @@ class RegisterFragment : Fragment() {
                         val user = auth.currentUser
                         updateUiWithUser(user)
                     } else {
+                        loading.visibility = View.GONE
                         // If sign in fails, display a message to the user.
                         Log.w("register fragment", "createUserWithEmail:failure", task.exception)
                         Toast.makeText(requireContext(), "Authentication failed.",

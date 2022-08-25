@@ -1,12 +1,13 @@
-package com.xelpmoc.assignment
+package com.xelpmoc.assignment.view.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.FragmentManager
 import com.google.firebase.auth.FirebaseAuth
+import com.xelpmoc.assignment.R
 import com.xelpmoc.assignment.databinding.ActivityMainBinding
-import com.xelpmoc.assignment.ui.fragments.HomeFragment
-import com.xelpmoc.assignment.ui.fragments.LoginFragment
+import com.xelpmoc.assignment.view.fragments.HomeFragment
+import com.xelpmoc.assignment.view.fragments.LoginFragment
 
 
 class MainActivity : AppCompatActivity() {
