@@ -1,19 +1,17 @@
-# Swipe Assignment
+# Xelpmoc Assignment
  Assigment  Swipe
 
 ## screenshot of Application 
 
-home loading 
-<img width="200" alt="image" src="https://user-images.githubusercontent.com/58937745/185234469-44654786-cccc-4394-86fa-c375ca71c599.jpeg">
+# login Fragment
 
-# List of Products using recycler view, use api’s response to populate recycler view
-<img width="200" alt="image" src="https://user-images.githubusercontent.com/58937745/185234488-ed11a0b6-1f79-4801-b48d-cec869a93138.jpeg">
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/58937745/186746302-a3a703ee-c01a-4ddf-81a1-650d0439a38a.jpeg">
 
-# Permisions for images
+# Home Fragment it takes 2 numbers then print fibonacci numbers using coroutines(light weight background thread)
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/58937745/186746353-dd1c92c5-6640-4b1a-9963-77395bbadc6e.jpeg">
 
-<img width="200" alt="image" src="https://user-images.githubusercontent.com/58937745/185234523-b50e76f4-a7b6-49ad-b2e3-8f9f66211122.jpeg">
+# Register Fragment
 
-<img width="200" alt="image" src="https://user-images.githubusercontent.com/58937745/185234550-7c5418a3-8245-49a4-a82a-d79032be4659.jpeg">
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/58937745/186746365-2dd4ecae-04a1-4979-a378-099ae7e98ea3.jpeg">
 
-[Download Apk]: http://github.com/github/markup/tree/master/lib/github/markups.rb#L13
 thanks
