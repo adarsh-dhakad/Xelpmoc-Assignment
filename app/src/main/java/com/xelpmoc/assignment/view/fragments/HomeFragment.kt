@@ -81,25 +81,4 @@ class HomeFragment : Fragment() {
         }
 
     }
-
-    private fun fib(n: Long): ArrayList<Long> {
-//        var a: BigInteger = BigInteger.valueOf(0)
-//        var b: BigInteger = BigInteger.valueOf(1)
-//        var c: BigInteger
-        var a = 0L ; var b  = 1L;
-        var c = 0L
-        var j = 1
-        for(i in 1..n) {
-            j++
-            c = a + b
-            a = b
-            b = c
-        }
-        val series = arrayListOf<Long>()
-        series.add(a)
-        series.add(b)
-        /* generate the fibonacci sequence and store in the array */
-        for (i in 2..9) series.add(series[i - 1] + series[i - 2])
-        return series
-    }
 }

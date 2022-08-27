@@ -6,7 +6,6 @@ import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import java.math.BigInteger
 
 class HomeViewModel : ViewModel() {
     val fibonacciNumbers1 = MutableLiveData<List<Long>>()
@@ -22,12 +21,7 @@ class HomeViewModel : ViewModel() {
         }
     }
 
-    class Pair {
-        var a: BigInteger = BigInteger("1")
-        var b: BigInteger = BigInteger("1")
-    }
-
-    private suspend fun fib(n: Long): ArrayList<Long> {
+    private  fun fib(n: Long): ArrayList<Long> {
         var a: Long = 0
         var b: Long = 1
         var c: Long
